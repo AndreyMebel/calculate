@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Калькулятор</title>
+</head>
+<body>
+    <header class="header">
+        <div class="continer">
+            <h1 class="title">Калькулятор крутого мебельщика</h1>
+        </div>
+    </header>
+    <section class="calculate">
+        <div class="container">
+            <div class="calculate-flex">
+            <div class="elem1 elem">
+                <p class="elem1-p elem-p">ЛДСП</p>
+                <p class="elem1-count elem-count">0</p>
+                <p class="elem1-count elem-count2">шт</p>
+                <svg class="elem1-minus elem-minus" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                    <circle cx="16" cy="16" r="16" fill="#F38242"/>
+                    <path d="M10 16C10.768 16 18.32 16 22 16" stroke="black" stroke-width="3"/>
+                </svg>
+                <svg class="elem1-plus elem-plus" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                    <circle cx="16" cy="16" r="16" fill="#F38242"/>
+                    <path d="M10 16C10.768 16 18.32 16 22 16" stroke="black" stroke-width="3"/>
+                    <path d="M16 10C16 10.768 16 18.32 16 22" stroke="black" stroke-width="3"/>
+                </svg>
+                <input class="elem1-input elem-input" type="text" value="0" disabled>
+            </div>
+
+            <div class="elem2 elem">
+                <p class="elem2-p elem-p">ДВП</p>
+                <p class="elem2-count elem-count">0</p>
+                <p class="elem2-count elem-count2">шт</p>
+                <svg class="elem2-minus elem-minus" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                    <circle cx="16" cy="16" r="16" fill="#F38242"/>
+                    <path d="M10 16C10.768 16 18.32 16 22 16" stroke="black" stroke-width="3"/>
+                </svg>
+                <svg class="elem2-plus elem-plus" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                    <circle cx="16" cy="16" r="16" fill="#F38242"/>
+                    <path d="M10 16C10.768 16 18.32 16 22 16" stroke="black" stroke-width="3"/>
+                    <path d="M16 10C16 10.768 16 18.32 16 22" stroke="black" stroke-width="3"/>
+                </svg>
+                <input class="elem2-input elem-input" type="text" value="0" disabled>
+            </div>
+
+            <div class="elem3 elem">
+                <p class="elem3-p elem-p">Кромка</p>
+                <p class="elem3-count elem-count">0</p>
+                <p class="elem3-count elem-count2">шт</p>
+                <svg class="elem3-minus elem-minus" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                    <circle cx="16" cy="16" r="16" fill="#F38242"/>
+                    <path d="M10 16C10.768 16 18.32 16 22 16" stroke="black" stroke-width="3"/>
+                </svg>
+                <svg class="elem3-plus elem-plus" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                    <circle cx="16" cy="16" r="16" fill="#F38242"/>
+                    <path d="M10 16C10.768 16 18.32 16 22 16" stroke="black" stroke-width="3"/>
+                    <path d="M16 10C16 10.768 16 18.32 16 22" stroke="black" stroke-width="3"/>
+                </svg>
+                <input class="elem3-input elem-input" type="text" value="0" disabled>
+            </div>
+
+            <div class="elem4 elem">
+                <p class="elem4-p elem-p">Фасад</p>
+                <p class="elem4-count elem-count">0</p>
+                <p class="elem4-count elem-count2">шт</p>
+                <svg class="elem4-minus elem-minus" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                    <circle cx="16" cy="16" r="16" fill="#F38242"/>
+                    <path d="M10 16C10.768 16 18.32 16 22 16" stroke="black" stroke-width="3"/>
+                </svg>
+                <svg class="elem4-plus elem-plus" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                    <circle cx="16" cy="16" r="16" fill="#F38242"/>
+                    <path d="M10 16C10.768 16 18.32 16 22 16" stroke="black" stroke-width="3"/>
+                    <path d="M16 10C16 10.768 16 18.32 16 22" stroke="black" stroke-width="3"/>
+                </svg>
+                <input class="elem4-input elem-input" type="text" value="0" disabled>
+            </div>
+
+            <div class="elem5 elem">
+                <p class="elem5-p elem-p">Стекло</p>
+                <p class="elem5-count elem-count">0</p>
+                <p class="elem5-count elem-count2">шт</p>
+                <svg class="elem5-minus elem-minus" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                    <circle cx="16" cy="16" r="16" fill="#F38242"/>
+                    <path d="M10 16C10.768 16 18.32 16 22 16" stroke="black" stroke-width="3"/>
+                </svg>
+                <svg class="elem5-plus elem-plus" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                    <circle cx="16" cy="16" r="16" fill="#F38242"/>
+                    <path d="M10 16C10.768 16 18.32 16 22 16" stroke="black" stroke-width="3"/>
+                    <path d="M16 10C16 10.768 16 18.32 16 22" stroke="black" stroke-width="3"/>
+                </svg>
+                <input class="elem5-input elem-input" type="text" value="0" disabled>
+            </div>
+
+            <div class="elem6 elem">
+                <p class="elem6-p elem-p">Столешн.</p>
+                <p class="elem6-count elem-count">0</p>
+                <p class="elem6-count elem-count2">шт</p>
+                <svg class="elem6-minus elem-minus" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                    <circle cx="16" cy="16" r="16" fill="#F38242"/>
+                    <path d="M10 16C10.768 16 18.32 16 22 16" stroke="black" stroke-width="3"/>
+                </svg>
+                <svg class="elem6-plus elem-plus" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                    <circle cx="16" cy="16" r="16" fill="#F38242"/>
+                    <path d="M10 16C10.768 16 18.32 16 22 16" stroke="black" stroke-width="3"/>
+                    <path d="M16 10C16 10.768 16 18.32 16 22" stroke="black" stroke-width="3"/>
+                </svg>
+                <input class="elem6-input elem-input" type="text" value="0" disabled>
+            </div>
+
+            <div class="elem7 elem">
+                <p class="elem7-p elem-p">Панель</p>
+                <p class="elem7-count elem-count">0</p>
+                <p class="elem7-count elem-count2">шт</p>
+                <svg class="elem7-minus elem-minus" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                    <circle cx="16" cy="16" r="16" fill="#F38242"/>
+                    <path d="M10 16C10.768 16 18.32 16 22 16" stroke="black" stroke-width="3"/>
+                </svg>
+                <svg class="elem7-plus elem-plus" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                    <circle cx="16" cy="16" r="16" fill="#F38242"/>
+                    <path d="M10 16C10.768 16 18.32 16 22 16" stroke="black" stroke-width="3"/>
+                    <path d="M16 10C16 10.768 16 18.32 16 22" stroke="black" stroke-width="3"/>
+                </svg>
+                <input class="elem7-input elem-input" type="text" value="0" disabled>
+            </div>
+
+            <div class="elem8 elem">
+                <p class="elem8-p elem-p">Плинтус</p>
+                <p class="elem8-count elem-count">0</p>
+                <p class="elem8-count elem-count2">шт</p>
+                <svg class="elem8-minus elem-minus" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                    <circle cx="16" cy="16" r="16" fill="#F38242"/>
+                    <path d="M10 16C10.768 16 18.32 16 22 16" stroke="black" stroke-width="3"/>
+                </svg>
+                <svg class="elem8-plus elem-plus" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                    <circle cx="16" cy="16" r="16" fill="#F38242"/>
+                    <path d="M10 16C10.768 16 18.32 16 22 16" stroke="black" stroke-width="3"/>
+                    <path d="M16 10C16 10.768 16 18.32 16 22" stroke="black" stroke-width="3"/>
+                </svg>
+                <input class="elem8-input elem-input" type="text" value="0" disabled>
+            </div>
+
+            <div class="elem9 elem">
+                <p class="elem9-p elem-p">Цоколь</p>
+                <p class="elem9-count elem-count">0</p>
+                <p class="elem9-count elem-count2">шт</p>
+                <svg class="elem9-minus elem-minus" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                    <circle cx="16" cy="16" r="16" fill="#F38242"/>
+                    <path d="M10 16C10.768 16 18.32 16 22 16" stroke="black" stroke-width="3"/>
+                </svg>
+                <svg class="elem9-plus elem-plus" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                    <circle cx="16" cy="16" r="16" fill="#F38242"/>
+                    <path d="M10 16C10.768 16 18.32 16 22 16" stroke="black" stroke-width="3"/>
+                    <path d="M16 10C16 10.768 16 18.32 16 22" stroke="black" stroke-width="3"/>
+                </svg>
+                <input class="elem9-input elem-input" type="text" value="0" disabled>
+            </div>
+
+            <div class="elem10 elem">
+                <p class="elem10-p elem-p">Раковина</p>
+                <p class="elem10-count elem-count">0</p>
+                <p class="elem10-count elem-count2">шт</p>
+                <svg class="elem10-minus elem-minus" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                    <circle cx="16" cy="16" r="16" fill="#F38242"/>
+                    <path d="M10 16C10.768 16 18.32 16 22 16" stroke="black" stroke-width="3"/>
+                </svg>
+                <svg class="elem10-plus elem-plus" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                    <circle cx="16" cy="16" r="16" fill="#F38242"/>
+                    <path d="M10 16C10.768 16 18.32 16 22 16" stroke="black" stroke-width="3"/>
+                    <path d="M16 10C16 10.768 16 18.32 16 22" stroke="black" stroke-width="3"/>
+                </svg>
+                <input class="elem10-input elem-input" type="text" value="0" disabled>
+            </div>
+
+            <div class="elem11 elem">
+                <p class="elem11-p elem-p">Сушилка</p>
+                <p class="elem11-count elem-count">0</p>
+                <p class="elem11-count elem-count2">шт</p>
+                <svg class="elem11-minus elem-minus" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                    <circle cx="16" cy="16" r="16" fill="#F38242"/>
+                    <path d="M10 16C10.768 16 18.32 16 22 16" stroke="black" stroke-width="3"/>
+                </svg>
+                <svg class="elem11-plus elem-plus" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                    <circle cx="16" cy="16" r="16" fill="#F38242"/>
+                    <path d="M10 16C10.768 16 18.32 16 22 16" stroke="black" stroke-width="3"/>
+                    <path d="M16 10C16 10.768 16 18.32 16 22" stroke="black" stroke-width="3"/>
+                </svg>
+                <input class="elem11-input elem-input" type="text" value="0" disabled>
+            </div>
+
+            <div class="elem12 elem">
+                <p class="elem12-p elem-p">Вентиляция</p>
+                <p class="elem12-count elem-count">0</p>
+                <p class="elem12-count elem-count2">шт</p>
+                <svg class="elem12-minus elem-minus" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                    <circle cx="16" cy="16" r="16" fill="#F38242"/>
+                    <path d="M10 16C10.768 16 18.32 16 22 16" stroke="black" stroke-width="3"/>
+                </svg>
+                <svg class="elem12-plus elem-plus" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                    <circle cx="16" cy="16" r="16" fill="#F38242"/>
+                    <path d="M10 16C10.768 16 18.32 16 22 16" stroke="black" stroke-width="3"/>
+                    <path d="M16 10C16 10.768 16 18.32 16 22" stroke="black" stroke-width="3"/>
+                </svg>
+                <input class="elem12-input elem-input" type="text" value="0" disabled>
+            </div>
+
+            <div class="elem13 elem">
+                <p class="elem13-p elem-p">Шина</p>
+                <p class="elem13-count elem-count">0</p>
+                <p class="elem13-count elem-count2">шт</p>
+                <svg class="elem13-minus elem-minus" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                    <circle cx="16" cy="16" r="16" fill="#F38242"/>
+                    <path d="M10 16C10.768 16 18.32 16 22 16" stroke="black" stroke-width="3"/>
+                </svg>
+                <svg class="elem13-plus elem-plus" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                    <circle cx="16" cy="16" r="16" fill="#F38242"/>
+                    <path d="M10 16C10.768 16 18.32 16 22 16" stroke="black" stroke-width="3"/>
+                    <path d="M16 10C16 10.768 16 18.32 16 22" stroke="black" stroke-width="3"/>
+                </svg>
+                <input class="elem13-input elem-input" type="text" value="0" disabled>
+            </div>
+
+            <div class="elem14 elem">
+                <p class="elem14-p elem-p">Навесы</p>
+                <p class="elem14-count elem-count">0</p>
+                <p class="elem14-count elem-count2">шт</p>
+                <svg class="elem14-minus elem-minus" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                    <circle cx="16" cy="16" r="16" fill="#F38242"/>
+                    <path d="M10 16C10.768 16 18.32 16 22 16" stroke="black" stroke-width="3"/>
+                </svg>
+                <svg class="elem14-plus elem-plus" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                    <circle cx="16" cy="16" r="16" fill="#F38242"/>
+                    <path d="M10 16C10.768 16 18.32 16 22 16" stroke="black" stroke-width="3"/>
+                    <path d="M16 10C16 10.768 16 18.32 16 22" stroke="black" stroke-width="3"/>
+                </svg>
+                <input class="elem14-input elem-input" type="text" value="0" disabled>
+            </div>
+
+            <div class="elem15 elem">
+                <p class="elem15-p elem-p">Петли</p>
+                <p class="elem15-count elem-count">0</p>
+                <p class="elem15-count elem-count2">шт</p>
+                <svg class="elem15-minus elem-minus" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                    <circle cx="16" cy="16" r="16" fill="#F38242"/>
+                    <path d="M10 16C10.768 16 18.32 16 22 16" stroke="black" stroke-width="3"/>
+                </svg>
+                <svg class="elem15-plus elem-plus" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                    <circle cx="16" cy="16" r="16" fill="#F38242"/>
+                    <path d="M10 16C10.768 16 18.32 16 22 16" stroke="black" stroke-width="3"/>
+                    <path d="M16 10C16 10.768 16 18.32 16 22" stroke="black" stroke-width="3"/>
+                </svg>
+                <input class="elem15-input elem-input" type="text" value="0" disabled>
+            </div>
+
+            <div class="elem16 elem">
+                <p class="elem16-p elem-p">Подъемн.</p>
+                <p class="elem16-count elem-count">0</p>
+                <p class="elem16-count elem-count2">шт</p>
+                <svg class="elem16-minus elem-minus" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                    <circle cx="16" cy="16" r="16" fill="#F38242"/>
+                    <path d="M10 16C10.768 16 18.32 16 22 16" stroke="black" stroke-width="3"/>
+                </svg>
+                <svg class="elem16-plus elem-plus" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                    <circle cx="16" cy="16" r="16" fill="#F38242"/>
+                    <path d="M10 16C10.768 16 18.32 16 22 16" stroke="black" stroke-width="3"/>
+                    <path d="M16 10C16 10.768 16 18.32 16 22" stroke="black" stroke-width="3"/>
+                </svg>
+                <input class="elem16-input elem-input" type="text" value="0" disabled>
+            </div>
+
+            <div class="elem17 elem">
+                <p class="elem17-p elem-p">Полозья</p>
+                <p class="elem17-count elem-count">0</p>
+                <p class="elem17-count elem-count2">шт</p>
+                <svg class="elem17-minus elem-minus" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                    <circle cx="16" cy="16" r="16" fill="#F38242"/>
+                    <path d="M10 16C10.768 16 18.32 16 22 16" stroke="black" stroke-width="3"/>
+                </svg>
+                <svg class="elem17-plus elem-plus" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                    <circle cx="16" cy="16" r="16" fill="#F38242"/>
+                    <path d="M10 16C10.768 16 18.32 16 22 16" stroke="black" stroke-width="3"/>
+                    <path d="M16 10C16 10.768 16 18.32 16 22" stroke="black" stroke-width="3"/>
+                </svg>
+                <input class="elem17-input elem-input" type="text" value="0" disabled>
+            </div>
+
+            <div class="elem18 elem">
+                <p class="elem18-p elem-p">Ручки</p>
+                <p class="elem18-count elem-count">0</p>
+                <p class="elem18-count elem-count2">шт</p>
+                <svg class="elem18-minus elem-minus" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                    <circle cx="16" cy="16" r="16" fill="#F38242"/>
+                    <path d="M10 16C10.768 16 18.32 16 22 16" stroke="black" stroke-width="3"/>
+                </svg>
+                <svg class="elem18-plus elem-plus" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                    <circle cx="16" cy="16" r="16" fill="#F38242"/>
+                    <path d="M10 16C10.768 16 18.32 16 22 16" stroke="black" stroke-width="3"/>
+                    <path d="M16 10C16 10.768 16 18.32 16 22" stroke="black" stroke-width="3"/>
+                </svg>
+                <input class="elem18-input elem-input" type="text" value="0" disabled>
+            </div>
+
+            <div class="elem19 elem">
+                <p class="elem19-p elem-p">Ножки</p>
+                <p class="elem19-count elem-count">0</p>
+                <p class="elem19-count elem-count2">шт</p>
+                <svg class="elem19-minus elem-minus" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                    <circle cx="16" cy="16" r="16" fill="#F38242"/>
+                    <path d="M10 16C10.768 16 18.32 16 22 16" stroke="black" stroke-width="3"/>
+                </svg>
+                <svg class="elem19-plus elem-plus" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                    <circle cx="16" cy="16" r="16" fill="#F38242"/>
+                    <path d="M10 16C10.768 16 18.32 16 22 16" stroke="black" stroke-width="3"/>
+                    <path d="M16 10C16 10.768 16 18.32 16 22" stroke="black" stroke-width="3"/>
+                </svg>
+                <input class="elem19-input elem-input" type="text" value="0" disabled>
+            </div>
+
+            <div class="elem20 elem">
+                <p class="elem20-p elem-p">Свет</p>
+                <p class="elem20-count elem-count">0</p>
+                <p class="elem20-count elem-count2">шт</p>
+                <svg class="elem20-minus elem-minus" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                    <circle cx="16" cy="16" r="16" fill="#F38242"/>
+                    <path d="M10 16C10.768 16 18.32 16 22 16" stroke="black" stroke-width="3"/>
+                </svg>
+                <svg class="elem20-plus elem-plus" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                    <circle cx="16" cy="16" r="16" fill="#F38242"/>
+                    <path d="M10 16C10.768 16 18.32 16 22 16" stroke="black" stroke-width="3"/>
+                    <path d="M16 10C16 10.768 16 18.32 16 22" stroke="black" stroke-width="3"/>
+                </svg>
+                <input class="elem20-input elem-input" type="text" value="0" disabled>
+            </div>
+
+            <div class="elem21 elem">
+                <p class="elem21-p elem-p">Гола</p>
+                <p class="elem21-count elem-count">0</p>
+                <p class="elem21-count elem-count2">шт</p>
+                <svg class="elem21-minus elem-minus" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                    <circle cx="16" cy="16" r="16" fill="#F38242"/>
+                    <path d="M10 16C10.768 16 18.32 16 22 16" stroke="black" stroke-width="3"/>
+                </svg>
+                <svg class="elem21-plus elem-plus" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                    <circle cx="16" cy="16" r="16" fill="#F38242"/>
+                    <path d="M10 16C10.768 16 18.32 16 22 16" stroke="black" stroke-width="3"/>
+                    <path d="M16 10C16 10.768 16 18.32 16 22" stroke="black" stroke-width="3"/>
+                </svg>
+                <input class="elem21-input elem-input" type="text" value="0" disabled>
+            </div>
+
+            <div class="elem22 elem">
+                <p class="elem22-p elem-p">Доставка</p>
+                <p class="elem22-count elem-count">0</p>
+                <p class="elem22-count elem-count2">шт</p>
+                <svg class="elem22-minus elem-minus" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                    <circle cx="16" cy="16" r="16" fill="#F38242"/>
+                    <path d="M10 16C10.768 16 18.32 16 22 16" stroke="black" stroke-width="3"/>
+                </svg>
+                <svg class="elem22-plus elem-plus" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                    <circle cx="16" cy="16" r="16" fill="#F38242"/>
+                    <path d="M10 16C10.768 16 18.32 16 22 16" stroke="black" stroke-width="3"/>
+                    <path d="M16 10C16 10.768 16 18.32 16 22" stroke="black" stroke-width="3"/>
+                </svg>
+                <input class="elem22-input elem-input" type="text" value="0" disabled>
+            </div>
+
+            </div>
+    </section>
+    <section class="summ">
+        <div class="container">
+            <div class="summ-flex">
+                <p class="summ-flex-p">
+                    Общая сумма:
+                </p>
+                <p class="summ-flex-count">
+                    0 руб.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>

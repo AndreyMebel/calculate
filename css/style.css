@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600&display=swap');
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    background-color: #292929;
+}
+
+.container {
+    max-width: 395px;
+    margin: 0 auto;
+    padding: 0px 15px 0px 15px;
+    position: relative;
+}
+
+.header{
+    text-align: center;
+    margin: 0 auto;
+    width: 395px;
+    height: 60px;
+    border-bottom: 1px solid #FFF;
+    padding-top: 18px;
+}
+
+.title{
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.calculate{
+    padding-top: 30px;
+    margin-bottom: 118px;
+}
+
+.calculate-flex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+}
+
+.elem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.elem-p{
+    color: #fff;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    position: absolute;
+    left: 15px;
+}
+
+.elem-count, .elem-count2{
+    color: #fff;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    position: absolute;
+    left: 139px;
+}
+
+.elem-count2{
+    left: 160px;
+}
+
+.elem-input{
+    width: 85px;
+    height: 24px;
+    border: none;
+    border-radius: 5px;
+    background: #FFF;
+    text-align: right;
+}
+
+.elem-minus{
+    margin-left: 181px;
+    margin-right: 8px;
+}
+
+.elem-plus{
+    margin-right: 27px;
+}
+
+.summ{
+    width: 395px;
+    height: 100px;
+    background: #333;
+    padding-top: 40px;
+    position: fixed;
+    bottom: 0px;
+}
+
+.summ-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.summ-flex-p{
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.summ-flex-count{
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
